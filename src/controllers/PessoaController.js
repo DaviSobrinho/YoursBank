@@ -24,7 +24,7 @@ const pessoaController = {
         password: req.body.password
       });
 
-      res.redirect('/login');
+      res.render('contaCriada');
     } catch (error) {
       console.error(error);
       res.status(500).json({ message: 'Internal Server Error' });

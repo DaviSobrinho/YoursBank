@@ -1,0 +1,32 @@
+<!-- transferencia.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transferência</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body style="background-color: rgba(255, 255, 149, 0.493);">
+  <div class="container">
+    <h1>Transferência</h1>
+    <form action="/conta-corrente/transferir" method="POST">
+      <div class="mb-3">
+        <label for="contaOrigem">Conta de Origem:</label>
+        <input type="text" class="form-control" id="contaOrigem" name="contaOrigem" required>
+      </div>
+      <div class="mb-3">
+        <label for="contaDestino">Conta de Destino:</label>
+        <input type="text" class="form-control" id="contaDestino" name="contaDestino" required>
+      </div>
+      <div class="mb-3">
+        <label for="valor">Valor:</label>
+        <input type="number" class="form-control" id="valor" name="valor" step="0.01" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Transferir</button>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

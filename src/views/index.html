@@ -16,7 +16,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: rgba(255, 255, 149, 0.493);">
     <div class="container">
         <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
@@ -46,6 +46,7 @@
                     <p>Saldo: <%= contaCorrente[i].saldo %></p>
                     <a href="/conta-corrente/excluir?numero=<%= contaCorrente[i].numero %>" class="btn btn-danger">Excluir Conta Corrente</a>
                     <a href="/conta-corrente/transferir?id=<%= contaCorrente[i].id %>" class="btn btn-primary">Transferir</a>
+                    <a href="/conta-corrente/historico?id=<%= contaCorrente[i].id %>" class="btn btn-secondary">Visualizar movimentações</a>
                 <% } %>                
             </div>
         </div>
