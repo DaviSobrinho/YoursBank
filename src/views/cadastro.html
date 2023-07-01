@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Conta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Conta</h1>
+    <form action="/pessoa/cadastrar" method="POST">
+      <div class="mb-3">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+      </div>
+      <div class="mb-3">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenome" name="sobrenome" required>
+      </div>
+      <div class="mb-3">
+        <label for="cpf">CPF</label>
+        <input type="text" class="form-control" id="cpf" name="cpf" required>
+      </div>
+      <div class="mb-3">
+        <label for="dataNascimento">Data de Nascimento</label>
+        <input type="date" class="form-control" id="dataNascimento" name="data_nascimento" required>
+      </div>
+      <div class="mb-3">
+        <label for="telefone">Telefone</label>
+        <input type="text" class="form-control" id="telefone" name="telefone" required>
+      </div>
+      <div class="mb-3">
+        <label for="endereco">Endereço</label>
+        <input type="text" class="form-control" id="endereco" name="endereco" required>
+      </div>
+      <div class="mb-3">
+        <label for="cep">CEP</label>
+        <input type="text" class="form-control" id="cep" name="cep" required>
+      </div>
+      <div class="mb-3">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="password">Senha</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
