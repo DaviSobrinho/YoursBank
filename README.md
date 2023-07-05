@@ -1,2 +1,2 @@
-﻿# Projeto-Programa-o-Web---Davi-Sobrinho-Labre
+﻿# YoursBank
 Olá, essa aplicação consiste em um site que permite o usuário criar uma conta em um banco, realizar login(autenticação), criar conta corrente dentro de sua conta e realizar transferencias bancárias entre contas dele ou de outro usuário, a aplicação foi desenvolvida utilizando JS,HTML5 e CSS3, além do BootStrap,Sequelize e do mustache-express, utiliza arquitetura MVC e ainda está em aprimoramento, apesar disso as funções de CRUD já estão disponíveis e o projeto é totalmente navegável, sinta-se à vontade para realizar um fork/testar.
